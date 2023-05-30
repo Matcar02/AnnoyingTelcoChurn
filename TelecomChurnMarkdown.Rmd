@@ -64,7 +64,7 @@ First we will load the dataset, rename to columns and convert all the categorica
 
 ```{r, echo=FALSE}
 # Load data
-data <- read.csv("C:/Users/aless/OneDrive/Documenti/Università/II_Anno_2022_2023/Data Analysis/Project/TelecomChurn.csv")
+data <- read.csv("C:/TelecomChurn.csv")
 
 # Rename columns
 colnames(data) <- c("State", "Account.Length", "Area.Code", "International.Plan", "Voice.Mail.Plan", "Number.Vmail.Messages", "Total.Day.Minutes", "Total.Day.Calls", "Total.Day.Charge", "Total.Eve.Minutes", "Total.Eve.Calls", "Total.Eve.Charge", "Total.Night.Minutes", "Total.Night.Calls", "Total.Night.Charge", "Total.Intl.Minutes", "Total.Intl.Calls", "Total.Intl.Charge", "Number.Customer.Service.Calls", "Churn")
